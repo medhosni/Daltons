@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="res/drawable/bg.png" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1092616192}">
+	<include android:id="false" layout="res/layout/toolbar.xml" />
+	<LinearLayout android:layout_width="-1" android:layout_height="-2">
+		<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginTop="16dp" android:layout_marginStart="30dp" android:layout_marginEnd="18dp" app:layout_constraintEnd_toStartOf="false" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
+		<TextView android:textSize="18sp" android:textColor="resourceId:0x106000b" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:text="GRID LAYOUT" android:layout_centerInParent="true" />
+	</LinearLayout>
+	<GridLayout android:id="false" android:padding="14dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1090519040}" android:rowCount="3" android:columnCount="2" android:columnOrderPreserved="false" android:alignmentMode="1">
+		<android.support.v7.widget.CardView android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_rowWeight="{4:1065353216}" android:layout_columnWeight="{4:1065353216}" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+			<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp">
+				<ImageView android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/filter.png" android:layout_weight="{4:1073741824}" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="resourceId:0x106000c" android:layout_width="-2" android:layout_height="-2" android:text="Colour Corrector" android:textAlignment="4" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_rowWeight="{4:1065353216}" android:layout_columnWeight="{4:1065353216}" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+			<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp">
+				<ImageView android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/camera.jpg" android:layout_weight="{4:1073741824}" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="resourceId:0x106000c" android:layout_width="-2" android:layout_height="-2" android:text="Colour simulator" android:textAlignment="4" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_rowWeight="{4:1065353216}" android:layout_columnWeight="{4:1065353216}" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+			<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp">
+				<ImageView android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/pen.png" android:layout_weight="{4:1073741824}" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="resourceId:0x106000c" android:layout_width="-2" android:layout_height="-2" android:text="Colour Blind Test" android:textAlignment="4" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_rowWeight="{4:1065353216}" android:layout_columnWeight="{4:1065353216}" app:cardCornerRadius="8dp" app:cardElevation="8dp">
+			<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16dp">
+				<ImageView android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/profile.png" android:layout_weight="{4:1073741824}" />
+				<TextView android:textSize="18sp" android:textStyle="0x1" android:textColor="resourceId:0x106000c" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="My profile" android:textAlignment="4" />
+			</LinearLayout>
+		</android.support.v7.widget.CardView>
+	</GridLayout>
+</LinearLayout>

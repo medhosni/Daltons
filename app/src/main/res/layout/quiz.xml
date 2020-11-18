@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="40sp" android:textStyle="0x1" android:textColor="b71c1c" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Ishihara Plate 1" />
+	<ImageView android:layout_gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/plate1.png" />
+	<LinearLayout android:orientation="1" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="30sp" android:textColor="ff424242" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="What did you see?" android:height="130dp" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:background="7c8fc8" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="20dp" android:text="Tile2" android:height="126dp" android:layout_weight="{4:1056964608}" />
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:background="7c8fc8" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="20dp" android:text="Tile3" android:height="126dp" android:layout_weight="{4:1056964608}" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:background="7c8fc8" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="20dp" android:text="Tile4" android:height="126dp" android:layout_weight="{4:1056964608}" />
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:background="7c8fc8" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="20dp" android:text="Tile5" android:height="126dp" android:layout_weight="{4:1056964608}" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="24sp" android:gravity="0x11" android:background="{2:2130837597}" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:text="Tile6" android:height="80dp" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

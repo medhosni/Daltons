@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="24sp" android:textStyle="0x0" android:textColor="2b414d" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Ishihara Plate 1 / 10" />
+	<ImageView android:layout_gravity="0x1" android:id="false" android:visibility="1" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/colors2.jpg" />
+	<ImageView android:layout_gravity="0x1" android:id="false" android:background="res/drawable/banner.png" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

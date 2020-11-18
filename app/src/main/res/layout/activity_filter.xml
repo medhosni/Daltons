@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="2b414d"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="{4:1077936128}"
+        android:gravity="0x11"
+        android:orientation="1">
+
+        <ImageButton
+            android:id="@+id/imgbtn"
+            android:layout_width="266dp"
+            android:layout_height="100dp"
+            android:layout_weight="{4:1120403456}"
+            android:background="@drawable/logo"
+            android:scaleType="center"
+            android:src="res/drawable/glasses.png" />
+
+        <TextView
+            android:id="false"
+            android:layout_width="-2"
+            android:layout_height="100dp"
+            android:layout_gravity="0x11"
+            android:descendantFocusability="2"
+            android:text="PRESS TO START THE FILTER"
+            android:textColor="resourceId:0x1060018"
+            android:textSize="18sp"
+            android:textStyle="0x1" />
+    </LinearLayout>
+</LinearLayout>

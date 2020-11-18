@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="24sp" android:textColor="2b414d" android:gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:text="ISHIHARA PLATE 1 / 10" />
+	<ImageView android:layout_gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable/plate1.png" />
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_centerInParent="false" android:layout_centerHorizontal="false" android:layout_centerVertical="false">
+		<LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="10dp">
+			<TextView android:textSize="30sp" android:textColor="ff424242" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="What did you see?" android:height="120dp" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="36sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="2b414d" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="20dp" android:text="5" android:height="126dp" android:layout_weight="{4:1056964608}" />
+			<TextView android:textSize="36sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="2b414d" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="20dp" android:text="4" android:height="126dp" android:layout_weight="{4:1056964608}" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="36sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="2b414d" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="20dp" android:text="6" android:height="126dp" android:layout_weight="{4:1056964608}" />
+			<TextView android:textSize="36sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="2b414d" android:layout_width="0dp" android:layout_height="-2" android:layout_margin="20dp" android:text="2" android:height="126dp" android:layout_weight="{4:1056964608}" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="-1" android:layout_height="-1">
+			<TextView android:textSize="30sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="84878c" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:text="Nothing" android:height="60dp" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="30sp" android:textColor="ff424242" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="What did you see?" android:height="80dp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="2b414d" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:text="5" android:height="60dp" />
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="2b414d" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:text="4" android:height="60dp" android:layout_weight="{4:1056964608}" />
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="2b414d" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:text="6" android:height="60dp" android:layout_weight="{4:1056964608}" />
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="2b414d" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:text="2" android:height="60dp" android:layout_weight="{4:1056964608}" />
+			<TextView android:textSize="24sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="84878c" android:layout_width="-1" android:layout_height="-2" android:layout_margin="20dp" android:text="Nothing" android:height="60dp" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

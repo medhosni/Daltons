@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginTop="100dp" android:layout_centerHorizontal="true" app:srcCompat="res/drawable/eye.png" />
+	<TextView android:textSize="20sp" android:textStyle="0x1" android:textColor="resourceId:0x106000b" android:id="false" android:padding="30dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:text="TextView" android:layout_below="false" android:layout_centerHorizontal="true" android:textAllCaps="true" android:textAlignment="4" />
+	<TextView android:textSize="15sp" android:textStyle="0x0" android:textColor="resourceId:0x106000b" android:id="false" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="-1" android:layout_height="-2" android:text="TextView" android:layout_below="false" android:layout_centerInParent="false" android:layout_centerHorizontal="true" android:layout_centerVertical="false" android:layout_alignWithParentIfMissing="false" android:textAllCaps="true" android:textAlignment="4" />
+	<View style="resourceId:0x7f0d00a6" />
+</RelativeLayout>

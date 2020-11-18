@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="e81d1" android:layout_width="-1" android:layout_height="{2:2130837507}" app:popupTheme="resourceId:0x7f0d0128" app:theme="resourceId:0x7f0d0125">
+	<TextView android:textSize="18sp" android:layout_gravity="0x3" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+</android.support.v7.widget.Toolbar>

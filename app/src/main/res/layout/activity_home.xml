@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="res/drawable/bg.png"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <include
+        android:id="false"
+        layout="res/layout/toolbar.xml" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="18dp"
+            app:layout_constraintEnd_toStartOf="false"
+            app:layout_constraintStart_toStartOf="0"
+            app:layout_constraintTop_toTopOf="0" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:text="GRID LAYOUT"
+            android:textColor="resourceId:0x106000b"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=""
+        android:alignmentMode="alignBounds"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:rowCount="3">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width=""
+                android:layout_height="-2"
+                android:layout_gravity="0x11"
+                android:layout_margin="16dp"
+                android:orientation="1">
+
+                <ImageView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_gravity="0x1"
+                    android:layout_weight="{4:1073741824}"
+                    android:src="res/drawable/filter.png" />
+
+                <TextView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:text="Colour Corrector"
+                    android:textAlignment="4"
+                    android:textColor="resourceId:0x106000c"
+                    android:textSize="18sp"
+                    android:textStyle="0x1" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_gravity="0x11"
+                android:layout_margin="16dp"
+                android:orientation="1">
+
+                <ImageView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_gravity="0x1"
+                    android:layout_weight="{4:1073741824}"
+                    android:src="res/drawable/camera.jpg" />
+
+                <TextView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:text="Colour simulator"
+                    android:textAlignment="4"
+                    android:textColor="resourceId:0x106000c"
+                    android:textSize="18sp"
+                    android:textStyle="0x1" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_gravity="0x11"
+                android:layout_margin="16dp"
+                android:orientation="1">
+
+                <ImageView
+                    android:id="false"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_gravity="0x1"
+                    android:layout_weight="{4:1073741824}"
+                    android:src="res/drawable/pen.png" />
+
+                <TextView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:text="Colour Blind Test"
+                    android:textAlignment="4"
+                    android:textColor="resourceId:0x106000c"
+                    android:textSize="18sp"
+                    android:textStyle="0x1" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_gravity="0x11"
+                android:layout_margin="16dp"
+                android:orientation="1">
+
+                <ImageView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_gravity="0x1"
+                    android:layout_weight="{4:1073741824}"
+                    android:src="res/drawable/profile.png" />
+
+                <TextView
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_gravity="0x11"
+                    android:text="My profile"
+                    android:textAlignment="4"
+                    android:textColor="resourceId:0x106000c"
+                    android:textSize="18sp"
+                    android:textStyle="0x1" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </GridLayout>
+</LinearLayout>
